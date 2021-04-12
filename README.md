@@ -1,4 +1,4 @@
-This is an attempt at a ~mostly?~ DIY automated hydroponic garden. This repo will contain the code used for the sensors/actuators, and perhaps some more documentation on the progress of the project. 
+This is an attempt at a (mostly?) DIY automated hydroponic garden. This repo will contain the code used for the sensors/actuators, and perhaps some more documentation on the progress of the project. 
 
 The initial idea is to build a 2 level garden in a VivoSun tent: 
 - Level 1 will be a deep water culture, possibly to grow a variety of lettuce and leafy greens, like spinach and kale
