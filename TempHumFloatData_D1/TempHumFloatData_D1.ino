@@ -1,6 +1,6 @@
 int FloatSensor = D7;
 int led = D8;
-int buttonState = 1;
+int sensorState = 1;
 
 
 void setup() {
@@ -11,14 +11,10 @@ void setup() {
 }
 
 void loop() {
-  buttonState = digitalRead(FloatSensor);
+  sensorState = digitalRead(FloatSensor);
 
-//  digitalWrite(led, HIGH);
-//  delay(500);
-//  digitalWrite(led, LOW);
-//  delay(500);
 
-    if (buttonState == HIGH) {
+    if (sensorState == HIGH) {
       digitalWrite(led, LOW);
       Serial.println("WATER LEVEL - LOW");
     } else {
